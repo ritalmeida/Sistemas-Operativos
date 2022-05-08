@@ -1,0 +1,11 @@
+Ficha 3
+
+1.
+	a) man fork - fork() cria um novo processo. Este novo processo (processo filho) é uma cópia exata do processo pai excepto em alguns parametros como o ID. 
+	    exit(int status) - termina o processo. e indica como ficou
+	b) gcc fork.c -o fork
+	    ./fork
+	    O primeiro valor que é imprimido é o do processo pai porque o filho é criado a partir do pai, logo é possivel saber-se o pid do pai antes do pid do filho.
+	
+2.	
+	a) wait - espera pelo processo filho (qualquer um) e waipid espera pelo processo filho com aquele pid específico

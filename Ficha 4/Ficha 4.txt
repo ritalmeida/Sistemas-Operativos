@@ -1,0 +1,12 @@
+Ficha 4
+
+1. 
+	a) A família de funções exec substitui uma imagem do processo por outra nova imagem. A única diferença são os argumentos que recebem. Enquanto que execlp recebe os argumentos um por um, a função execvp recebe os argumentos todos num array de strings.
+	c) A mensagem só vai ser imprimida se o execlp() falhar, ou seja, se não existir um caminho. Portanto para a mensagem ser impressa, o execlp não pode ter um caminho de acesso ao ficheiro executável.
+
+3.
+	a) Quando o processo filho recebe o sinal enviado pelo pai, ele executa-o.
+	b) A chamada signal(): define uma rotina de atendimento para um determinado sinal
+	   A chamada kill(): envia um sinal ao processo
+	d) Não, porque estes sinais não podem ser tratados!
+	e) Não, não consigo parar o programa! Só depois de fazer o kill -9 com o PID correspondente. 

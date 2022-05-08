@@ -1,0 +1,27 @@
+Ficha 1
+
+1. man man -> manual geral de comandos
+2. mkdir exerc1
+3. cd exerc1
+4. mkdir teste1 teste2
+5. cd teste1. foram criados os documentos aa, bb e cc na pasta teste1 e dentro de cada documento estava escrito aa, bb e cc respetivamente
+6. cp ./* ../teste2/
+7. cp -r ./ ../teste2
+8. cd ../teste2
+9. chmod go=- aa
+10. criou um ficheiro myls com "ls -l" escrito nele
+11. chmod u=rwx myls
+	./myls
+12. O comando ps permite visualizar os processos
+13. executar o comando ps > processos
+14. executar o comando ls | wc -l
+15. passados 10 segundos, aparece no terminal a frase "passaram 10 segundos"
+16. (sleep 130; echo 'passaram 130 segundos') &. passados 130 segundos aparece a mensagem
+17. comando ps (imagem 17)
+18. através do pid que obtemos com o comando ps, fazemos "kill (pid do processo a matar)"
+19 a 25. imagem anexa "25"
+26. echo > metacarater para criar ficheiro com o nome "metacaracter". nano metacaracter para editar o ficheiro.
+27. só ocorre alguma coisa quando executamos o segundo comando: aparecem na shell as linhas onde existem '*'. Penso que o primeiro nao funciona porque o * executado num comando pode ter outros significados como por exemplo todos os ficheiros ou todas as pastas
+28. executamos o comando grep caracter$ metacaracter
+29. executamos o comando rm ./-menos
+
