@@ -1,0 +1,3 @@
+2.
+	b) dup2() cria uma cópia de um descritor e retorna o seu valor ao processo que o está a chamar.
+	    pipe() cria um pipe que é um canal unidirecional de informação que pode ser usado para comunicação entre processos. 

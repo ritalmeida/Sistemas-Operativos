@@ -1,0 +1,6 @@
+1.
+	Programa 1: Este programa imprime o 42 porque é "enviado" pelo pthread_exit() ao pthread_join().
+	Programa 2: Este programa não imprime o 42 porque ele está a fazer exit do processo e não da thread.
+	Programa 3: Acho que este programa imprime 42. Porque a thread2 não vai mexer na variável i que é o 42.
+	Programa 4: Não imprime o 42 pois o thread_detach que separa a thread e impossibilita o retorno de 42.
+	Programa 5: Acho que pode imprimir tanto o 42 como o 31 porque não sei qual thread vai ser executada primeiro.

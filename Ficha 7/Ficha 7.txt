@@ -1,0 +1,8 @@
+1.
+	b) pthread_create(): cria uma nova thread.
+	    pthread_self(): obtém o id da thread chamada
+	    pthread_equal(): compara o id entre 2 threads
+	    pthread_exit(): termina a thread em questão
+	    pthread_join(): espera pela thread terminar
+	
+	c) O valor do PID é igual porque o processo é o mesmo. E é esse processo que depois cria as duas threads e daí o TID ser diferente nos dois casos.
